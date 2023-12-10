@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-height {
+  min-height: 70vh;
+}
+
+.w-percent-80 {
+  width: 80%;
+}
+
+.jere-bg {
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    #02510f 21%,
+    #ff0303 41%,
+    #000000 60%,
+    #02510f 80%,
+    #ff0303 100%
+  );
+}
